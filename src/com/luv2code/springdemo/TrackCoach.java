@@ -25,5 +25,20 @@ public class TrackCoach implements Coach {
 		//lets call fortuneService to get a fortune
 		return fortuneService.getFortune();
 	}
+	
+	private void start() {
+		System.out.println("Start method");
+	}
 
+	private void khatam() {
+		System.out.println("Khatam method");
+	}
 }
+
+
+
+
+
+
+
+
