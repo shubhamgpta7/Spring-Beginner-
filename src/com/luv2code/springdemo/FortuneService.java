@@ -1,9 +1,6 @@
 package com.luv2code.springdemo;
 
-public interface Coach {
-	
-	public String getDailyWorkout();
-	
+//Defining Interface 
+public interface FortuneService {
 	public String getFortune();
-
 }
